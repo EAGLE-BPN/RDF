@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:oa="http://www.w3.org/ns/oa#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:pelagios="http://pelagios.github.io/vocab/terms#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:pleiades="https://pleiades.stoa.org/"
+         xmlns:wd="https://www.wikidata.org/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:eagle="https://www.eagle-network.eu/"
+         xmlns:t="http://www.tei-c.org/ns/1.0">
+   <void:Dataset rdf:about="http://irt.kcl.ac.uk/irt2009/">
+      <dc:title>Inscriptions of Roman Tripolitania</dc:title>
+      <dc:publisher>International Digital Epigraphy Association</dc:publisher>
+      <foaf:homepage rdf:resource="http://irt.kcl.ac.uk/irt2009/"/>
+      <dc:description>A dataset of annotated inscriptions.</dc:description>
+      <dc:license rdf:resource="http://opendatacommons.org/licenses/by/"/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IRT.rdf"/>
+   </void:Dataset>
+</rdf:RDF>

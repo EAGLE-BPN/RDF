@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <set>
+        <title>Inscriptions of Greek Cyrenaica / Greek Verse Inscriptions of Cyrenaica</title>
+        <baseuri>https://igcyr.unibo.it/</baseuri>
+        <shortname>IGCyr</shortname>
+    </set>
+    <set>
+        <title>Ancienct Graffiti Projekt</title>
+        <baseuri>http://agp.wlu.edu/</baseuri>
+        <shortname>AGP</shortname>
+    </set>
+    <set>
+        <title>Inscriptions of Roman Tripolitania</title>
+        <baseuri>http://irt.kcl.ac.uk/irt2009/</baseuri>
+        <shortname>IRT</shortname>
+    </set>
+    <set>
+        <title>PETRAE</title>
+        <baseuri>http://petrae.huma-num.fr/</baseuri>
+        <shortname>Ausonius</shortname>
+    </set>
+    <set>
+        <title>Inscriptions of Brigetio</title>
+        <baseuri>http://regeszet.elte.hu/eagle/index.php?id=</baseuri>
+        <shortname>ELTE</shortname>
+    </set>
+    <set>
+        <title>Epigraphic Database Roma</title>
+        <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
+        <shortname>EDR</shortname>
+    </set>
+</data>
