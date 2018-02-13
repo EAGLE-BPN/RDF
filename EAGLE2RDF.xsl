@@ -51,7 +51,7 @@
                 </xsl:if>
                 <xsl:if test="//t:idno[not(@type='TM')][not(@type='URI')][not(@type='localID')]">
                     <xsl:for-each select="//t:idno[not(@type='TM')][not(@type='URI')][not(@type='localID')]">
-                        <crm:P1_is_identified_by><xsl:value-of select="@type"/><xsl:value-of select="."/></crm:P1_is_identified_by>
+                        <crm:P1_is_identified_by><xsl:value-of select="."/></crm:P1_is_identified_by>
                     </xsl:for-each>
                 </xsl:if>
                 <rdf:type rdf:resource="http://pelagios.github.io/vocab/terms#AnnotatedThing"/>
@@ -194,8 +194,7 @@
                 </xsl:when>
                 <xsl:otherwise>
                     <crm:E52_Time-span>
-                        <crm:P78_is_identified_by
-                            rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+                        <crm:P78_is_identified_by>
                             <xsl:value-of select="."/>
                         </crm:P78_is_identified_by>
                     </crm:E52_Time-span>

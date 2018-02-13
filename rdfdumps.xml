@@ -6,7 +6,7 @@
         <shortname>IGCyr</shortname>
     </set>
     <set>
-        <title>Ancienct Graffiti Projekt</title>
+        <title>Ancienct Graffiti Project</title>
         <baseuri>http://agp.wlu.edu/</baseuri>
         <shortname>AGP</shortname>
     </set>
@@ -26,8 +26,28 @@
         <shortname>ELTE</shortname>
     </set>
     <set>
+        <title>UNIVERSITATEA BABES BOLYAI</title>
+        <baseuri>http://inscriptionsfromdacia.altervista.org/text/</baseuri>
+        <shortname>UBB</shortname>
+    </set>
+    <set>
+        <title>UNIPU - Juraj Dobrila University of Pula</title>
+        <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
+        <shortname>UNIPU</shortname>
+    </set>
+    <set>
+        <title>ZRC SAZU (Research Centre of the Slovenian Academy of Science and Arts)</title>
+        <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
+        <shortname>ZRC-SAZU</shortname>
+    </set>
+    <set>
+        <title>Last Statues of Antiquity - University of Oxford</title>
+        <baseuri>http://regeszet.elte.hu/eagle/index.php?id=</baseuri>
+        <shortname>LSA</shortname>
+    </set><!--
+    <set>
         <title>Epigraphic Database Roma</title>
         <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
         <shortname>EDR</shortname>
-    </set>
+    </set>-->
 </data>

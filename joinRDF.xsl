@@ -17,8 +17,8 @@
     xmlns:eagle="https://www.eagle-network.eu/"
     xmlns:t="http://www.tei-c.org/ns/1.0" version="2.0">
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
-    
-    <xsl:template match="//set">
+    <xsl:variable name="rdf" select="collection('../RDF/?select=*.rdf')"/>
+    <xsl:template match="set">
         <xsl:result-document href="{shortname}.rdf">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
             xmlns:lawd="http://lawd.info/ontology/" 
@@ -36,33 +36,41 @@
             xmlns:eagle="https://www.eagle-network.eu/"
             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
             <xsl:variable name="buri" select="baseuri/text()"/>
-            <xsl:for-each select="collection('../RDF')//crm:E71_Man_Made_Thing[starts-with(@rdf:about, $buri)]">
+            <xsl:for-each select="$rdf//crm:E71_Man_Made_Thing[starts-with(@rdf:about, $buri)]">
                 <xsl:copy exclude-result-prefixes="#all"><xsl:copy-of exclude-result-prefixes="#all" select="@* | node()"></xsl:copy-of></xsl:copy>
             </xsl:for-each>
-            <xsl:for-each select="collection('../RDF')//oa:Annotation[starts-with(@rdf:about, $buri)]">
+            <xsl:for-each select="$rdf//oa:Annotation[starts-with(@rdf:about, $buri)]">
                 <xsl:copy exclude-result-prefixes="#all"><xsl:copy-of exclude-result-prefixes="#all" select="@* | node()"></xsl:copy-of></xsl:copy>
             </xsl:for-each>
         </rdf:RDF>  
         </xsl:result-document>
-        <xsl:result-document href="{shortname}.void.rdf">
-            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                xmlns:void="http://rdfs.org/ns/void#"
-                xmlns:dc="http://purl.org/dc/terms/"
-                xmlns:foaf="http://xmlns.com/foaf/0.1/">
-                
-                <void:Dataset rdf:about="{baseuri}">
-                    <dc:title><xsl:value-of select="title"/></dc:title>
-                    <dc:publisher>International Digital Epigraphy Association</dc:publisher>
-                    <foaf:homepage rdf:resource="{baseuri}"/>
-                    <dc:description>A dataset of annotated inscriptions.</dc:description>
-                    <dc:license rdf:resource="http://opendatacommons.org/licenses/by/"/>
-                    <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/{shortname}.rdf"/>
-                </void:Dataset>
-                
-            </rdf:RDF>
-        </xsl:result-document>
     </xsl:template>
 
+<xsl:template match="data">
+    
+    <xsl:result-document href="EAGLE_void.rdf">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:void="http://rdfs.org/ns/void#"
+            xmlns:dc="http://purl.org/dc/terms/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/">
+            
+            <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/">
+                <dcterms:title>Europeana Network of Ancient Greek and Latin Epigraphy (EAGLE)</dcterms:title>
+                <dcterms:publisher>International Digital Epigraphy Association</dcterms:publisher>
+                <foaf:homepage rdf:resource="https://www.eagle-network.eu/"/>
+                <dcterms:description>A dataset of annotated inscriptions from the EAGLE aggregator.</dcterms:description>
+                <dcterms:license rdf:resource="http://opendatacommons.org/licenses/by/"/>
+                <xsl:for-each select="set">
+                    <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/{shortname}.rdf"/>
+                    
+                    <xsl:apply-templates select="."/>
+                </xsl:for-each>
+            </void:Dataset>
+            
+        </rdf:RDF>
+    </xsl:result-document>
+</xsl:template>
     
     
 </xsl:stylesheet>

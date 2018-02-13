@@ -4814,45 +4814,6 @@
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
    </crm:E71_Man_Made_Thing>
-   <crm:E71_Man_Made_Thing rdf:about="http://agp.wlu.edu/graffito/AGP-EDR147607">
-      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03wskd389m"/>
-      <dcterms:subject>inscription</dcterms:subject>
-      <crm:P48_has_preferred_identifier>AGP-EDR147607</crm:P48_has_preferred_identifier>
-      <crm:P1_is_identified_by>EDREDR147607</crm:P1_is_identified_by>
-      <crm:P1_is_identified_by/>
-      <rdf:type rdf:resource="http://pelagios.github.io/vocab/terms#AnnotatedThing"/>
-      <rdf:type>
-         <crm:E34_Inscription>
-            <rdf:type rdf:resource="www.eagle-network.eu/voc/writing/lod/9"/>
-         </crm:E34_Inscription>
-      </rdf:type>
-      <rdf:type>
-         <crm:E84_Information_Carrier>
-            <crm:P2_has_type rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/416"/>
-            <crm:P43_has_dimension>
-               <crm:E54_Dimension>
-                  <crm:P40_observed_dimension>
-                                            
-                                                    </crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>0.00</crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>
-                                            </crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>0.00</crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>
-                                                
-                                       
-                                        </crm:P40_observed_dimension>
-               </crm:E54_Dimension>
-            </crm:P43_has_dimension>
-         </crm:E84_Information_Carrier>
-      </rdf:type>
-      <foaf:primaryTopicOf rdf:resource="http://agp.wlu.edu/graffito/AGP-EDR147607"/>
-      <dc:title>Graffito from Herculaneum</dc:title>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
-   </crm:E71_Man_Made_Thing>
    <crm:E71_Man_Made_Thing rdf:about="http://agp.wlu.edu/graffito/AGP-EDR151065">
       <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03wskd389m"/>
       <dcterms:subject>inscription</dcterms:subject>
@@ -4887,6 +4848,45 @@
       </rdf:type>
       <foaf:primaryTopicOf rdf:resource="http://agp.wlu.edu/graffito/AGP-EDR151065"/>
       <dc:title>Graffito from Pompeii</dc:title>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
+   </crm:E71_Man_Made_Thing>
+   <crm:E71_Man_Made_Thing rdf:about="http://agp.wlu.edu/graffito/AGP-EDR147607">
+      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03wskd389m"/>
+      <dcterms:subject>inscription</dcterms:subject>
+      <crm:P48_has_preferred_identifier>AGP-EDR147607</crm:P48_has_preferred_identifier>
+      <crm:P1_is_identified_by>EDREDR147607</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by/>
+      <rdf:type rdf:resource="http://pelagios.github.io/vocab/terms#AnnotatedThing"/>
+      <rdf:type>
+         <crm:E34_Inscription>
+            <rdf:type rdf:resource="www.eagle-network.eu/voc/writing/lod/9"/>
+         </crm:E34_Inscription>
+      </rdf:type>
+      <rdf:type>
+         <crm:E84_Information_Carrier>
+            <crm:P2_has_type rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/416"/>
+            <crm:P43_has_dimension>
+               <crm:E54_Dimension>
+                  <crm:P40_observed_dimension>
+                                            
+                                                    </crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>0.00</crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>
+                                            </crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>0.00</crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>
+                                                
+                                       
+                                        </crm:P40_observed_dimension>
+               </crm:E54_Dimension>
+            </crm:P43_has_dimension>
+         </crm:E84_Information_Carrier>
+      </rdf:type>
+      <foaf:primaryTopicOf rdf:resource="http://agp.wlu.edu/graffito/AGP-EDR147607"/>
+      <dc:title>Graffito from Herculaneum</dc:title>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
@@ -7427,45 +7427,6 @@
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
    </crm:E71_Man_Made_Thing>
-   <crm:E71_Man_Made_Thing rdf:about="http://agp.wlu.edu/graffito/AGP-EDR145438">
-      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03wskd389m"/>
-      <dcterms:subject>inscription</dcterms:subject>
-      <crm:P48_has_preferred_identifier>AGP-EDR145438</crm:P48_has_preferred_identifier>
-      <crm:P1_is_identified_by>EDREDR145438</crm:P1_is_identified_by>
-      <crm:P1_is_identified_by/>
-      <rdf:type rdf:resource="http://pelagios.github.io/vocab/terms#AnnotatedThing"/>
-      <rdf:type>
-         <crm:E34_Inscription>
-            <rdf:type rdf:resource="www.eagle-network.eu/voc/writing/lod/9"/>
-         </crm:E34_Inscription>
-      </rdf:type>
-      <rdf:type>
-         <crm:E84_Information_Carrier>
-            <crm:P2_has_type rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/416"/>
-            <crm:P43_has_dimension>
-               <crm:E54_Dimension>
-                  <crm:P40_observed_dimension>
-                                            
-                                                    </crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>3.20</crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>
-                                            </crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>3.00</crm:P40_observed_dimension>
-                  <crm:P40_observed_dimension>
-                                                
-                                       
-                                        </crm:P40_observed_dimension>
-               </crm:E54_Dimension>
-            </crm:P43_has_dimension>
-         </crm:E84_Information_Carrier>
-      </rdf:type>
-      <foaf:primaryTopicOf rdf:resource="http://agp.wlu.edu/graffito/AGP-EDR145438"/>
-      <dc:title>Graffito from Pompeii</dc:title>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
-      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
-   </crm:E71_Man_Made_Thing>
    <crm:E71_Man_Made_Thing rdf:about="http://agp.wlu.edu/graffito/AGP-EDR154535">
       <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03wskd389m"/>
       <dcterms:subject>inscription</dcterms:subject>
@@ -7500,6 +7461,45 @@
       </rdf:type>
       <foaf:primaryTopicOf rdf:resource="http://agp.wlu.edu/graffito/AGP-EDR154535"/>
       <dc:title>Graffito from Herculaneum</dc:title>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
+      <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">la</dc:language>
+   </crm:E71_Man_Made_Thing>
+   <crm:E71_Man_Made_Thing rdf:about="http://agp.wlu.edu/graffito/AGP-EDR145438">
+      <dcterms:temporal rdf:resource="http://n2t.net/ark:/99152/p03wskd389m"/>
+      <dcterms:subject>inscription</dcterms:subject>
+      <crm:P48_has_preferred_identifier>AGP-EDR145438</crm:P48_has_preferred_identifier>
+      <crm:P1_is_identified_by>EDREDR145438</crm:P1_is_identified_by>
+      <crm:P1_is_identified_by/>
+      <rdf:type rdf:resource="http://pelagios.github.io/vocab/terms#AnnotatedThing"/>
+      <rdf:type>
+         <crm:E34_Inscription>
+            <rdf:type rdf:resource="www.eagle-network.eu/voc/writing/lod/9"/>
+         </crm:E34_Inscription>
+      </rdf:type>
+      <rdf:type>
+         <crm:E84_Information_Carrier>
+            <crm:P2_has_type rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/416"/>
+            <crm:P43_has_dimension>
+               <crm:E54_Dimension>
+                  <crm:P40_observed_dimension>
+                                            
+                                                    </crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>3.20</crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>
+                                            </crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>3.00</crm:P40_observed_dimension>
+                  <crm:P40_observed_dimension>
+                                                
+                                       
+                                        </crm:P40_observed_dimension>
+               </crm:E54_Dimension>
+            </crm:P43_has_dimension>
+         </crm:E84_Information_Carrier>
+      </rdf:type>
+      <foaf:primaryTopicOf rdf:resource="http://agp.wlu.edu/graffito/AGP-EDR145438"/>
+      <dc:title>Graffito from Pompeii</dc:title>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">grc</dc:language>
       <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</dc:language>
