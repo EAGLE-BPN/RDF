@@ -32,4 +32,49 @@
       <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ZRC-SAZU.rdf"/>
       <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/LSA.rdf"/>
    </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IGCyr">
+      <dcterms:title>Inscriptions of Greek Cyrenaica / Greek Verse Inscriptions of Cyrenaica</dcterms:title>
+      <foaf:homepage rdf:resource="https://igcyr.unibo.it/"/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IGCyr.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/AGP">
+      <dcterms:title>Ancienct Graffiti Project</dcterms:title>
+      <foaf:homepage rdf:resource="http://agp.wlu.edu/"/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/AGP.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IRT">
+      <dcterms:title>Inscriptions of Roman Tripolitania</dcterms:title>
+      <foaf:homepage rdf:resource="http://irt.kcl.ac.uk/irt2009/"/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IRT.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/Ausonius">
+      <dcterms:title>PETRAE</dcterms:title>
+      <foaf:homepage rdf:resource="http://petrae.huma-num.fr/"/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/Ausonius.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ELTE">
+      <dcterms:title>Inscriptions of Brigetio</dcterms:title>
+      <foaf:homepage rdf:resource="http://regeszet.elte.hu/eagle/index.php?id="/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ELTE.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UBB">
+      <dcterms:title>UNIVERSITATEA BABES BOLYAI</dcterms:title>
+      <foaf:homepage rdf:resource="http://inscriptionsfromdacia.altervista.org/text/"/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UBB.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UNIPU">
+      <dcterms:title>UNIPU - Juraj Dobrila University of Pula</dcterms:title>
+      <foaf:homepage rdf:resource="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr="/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UNIPU.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ZRC-SAZU">
+      <dcterms:title>ZRC SAZU (Research Centre of the Slovenian Academy of Science and Arts)</dcterms:title>
+      <foaf:homepage rdf:resource="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr="/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ZRC-SAZU.rdf"/>
+   </void:Dataset>
+   <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/LSA">
+      <dcterms:title>Last Statues of Antiquity - University of Oxford</dcterms:title>
+      <foaf:homepage rdf:resource="http://laststatues.classics.ox.ac.uk/database/detail.php?record="/>
+      <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/LSA.rdf"/>
+   </void:Dataset>
 </rdf:RDF>

@@ -17,7 +17,7 @@
     xmlns:eagle="https://www.eagle-network.eu/"
     xmlns:t="http://www.tei-c.org/ns/1.0" version="2.0">
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
-    <xsl:variable name="rdf" select="collection('../RDF/?select=*.rdf')"/>
+  <!--  <xsl:variable name="rdf" select="collection('../RDF/?select=*.rdf')"/>
     <xsl:template match="set">
         <xsl:result-document href="{shortname}.rdf">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -45,7 +45,7 @@
         </rdf:RDF>  
         </xsl:result-document>
     </xsl:template>
-
+-->
 <xsl:template match="data">
     
     <xsl:result-document href="EAGLE_void.rdf">
@@ -64,9 +64,17 @@
                 <xsl:for-each select="set">
                     <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/{shortname}.rdf"/>
                     
-                    <xsl:apply-templates select="."/>
+<!--                    <xsl:apply-templates select="."/>-->
                 </xsl:for-each>
             </void:Dataset>
+            <xsl:for-each select="set">
+                
+                <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/{shortname}">
+                    <dcterms:title><xsl:value-of select="title"/></dcterms:title>
+                    <foaf:homepage rdf:resource="{baseuri}"/>
+                    <void:dataDump rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/{shortname}.rdf"/>
+                </void:Dataset>
+            </xsl:for-each>
             
         </rdf:RDF>
     </xsl:result-document>
