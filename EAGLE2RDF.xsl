@@ -161,6 +161,9 @@
             <xsl:when test="@notBefore and @notAfter">
                 <xsl:value-of select="concat(@notBefore, '/', @notAfter)"/>
             </xsl:when>
+            <xsl:when test="@notBefore-custom and @notAfter-custom">
+                <xsl:value-of select="concat(@notBefore-custom, '/', @notAfter-custom)"/>
+            </xsl:when>
         </xsl:choose></dcterms:temporal>
         <crm:P4_has_time_span>
             <xsl:choose>
@@ -188,6 +191,22 @@
                             <crm:P80_end_is_qualified_by
                                 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
                                 <xsl:value-of select="@notAfter"/>
+                            </crm:P80_end_is_qualified_by>
+                        </xsl:if>
+                    </crm:E52_Time-span>
+                </xsl:when>
+                <xsl:when test="@notBefore-custom or @notAfter-custom">
+                    <crm:E52_Time-span>
+                        <xsl:if test="@notBefore-custom">
+                            <crm:P79_beginning_is_qualified_by
+                                rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+                                <xsl:value-of select="format-date(xs:date(@notBefore-custom), '[Y0]')"/>
+                            </crm:P79_beginning_is_qualified_by>
+                        </xsl:if>
+                        <xsl:if test="@notAfter-custom">
+                            <crm:P80_end_is_qualified_by
+                                rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+                                <xsl:value-of select="format-date(xs:date(@notAfter-custom), '[Y0]')"/>
                             </crm:P80_end_is_qualified_by>
                         </xsl:if>
                     </crm:E52_Time-span>

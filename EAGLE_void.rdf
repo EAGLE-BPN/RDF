@@ -22,15 +22,15 @@
       <foaf:homepage rdf:resource="https://www.eagle-network.eu/"/>
       <dcterms:description>A dataset of annotated inscriptions from the EAGLE aggregator.</dcterms:description>
       <dcterms:license rdf:resource="http://opendatacommons.org/licenses/by/"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IGCyr.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/AGP.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IRT.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/Ausonius.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ELTE.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UBB.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UNIPU.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ZRC-SAZU.rdf"/>
-      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/LSA.rdf"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IGCyr"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/AGP"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IRT"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/Ausonius"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ELTE"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UBB"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/UNIPU"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/ZRC-SAZU"/>
+      <void:subset rdf:resource="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/LSA"/>
    </void:Dataset>
    <void:Dataset rdf:about="https://raw.githubusercontent.com/EAGLE-BPN/RDF/master/IGCyr">
       <dcterms:title>Inscriptions of Greek Cyrenaica / Greek Verse Inscriptions of Cyrenaica</dcterms:title>
