@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-    <set>
+    <!--<set>
         <title>Inscriptions of Greek Cyrenaica / Greek Verse Inscriptions of Cyrenaica</title>
         <baseuri>https://igcyr.unibo.it/</baseuri>
         <shortname>IGCyr</shortname>
@@ -29,7 +29,7 @@
         <title>UNIVERSITATEA BABES BOLYAI</title>
         <baseuri>http://inscriptionsfromdacia.altervista.org/text/</baseuri>
         <shortname>UBB</shortname>
-    </set>
+    </set>-->
     <set>
         <title>UNIPU - Juraj Dobrila University of Pula</title>
         <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
@@ -38,13 +38,13 @@
     <set>
         <title>ZRC SAZU (Research Centre of the Slovenian Academy of Science and Arts)</title>
         <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
-        <shortname>ZRC-SAZU</shortname>
-    </set>
+        <shortname>ZRC SAZU</shortname>
+    </set><!--
     <set>
         <title>Last Statues of Antiquity - University of Oxford</title>
         <baseuri>http://laststatues.classics.ox.ac.uk/database/detail.php?record=</baseuri>
         <shortname>LSA</shortname>
-    </set><!--
+    </set>--><!--
     <set>
         <title>Epigraphic Database Roma</title>
         <baseuri>http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=</baseuri>
