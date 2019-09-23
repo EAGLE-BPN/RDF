@@ -118,6 +118,11 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:29:19</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/448">
+        <skos:prefLabel xml:lang="en">Aretalogy</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/79"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/116">
         <skos:prefLabel xml:lang="de">Assignationsinschrift</skos:prefLabel>
         <skos:scopeNote xml:lang="de"
@@ -209,6 +214,11 @@
         </skos:exactMatch>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-26 09:29:25</dct:modified>
+    </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/462">
+        <skos:prefLabel xml:lang="en">Building inscription (Christian)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/383"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/109">
         <skos:prefLabel xml:lang="de">Beischrift</skos:prefLabel>
@@ -332,6 +342,11 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 13:56:09</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/449">
+        <skos:prefLabel xml:lang="en">Confession inscription</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/79"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/12">
         <skos:prefLabel xml:lang="fr">Constitution</skos:prefLabel>
         <skos:altLabel xml:lang="es">Constitución</skos:altLabel>
@@ -340,7 +355,6 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 12:06:11</dct:modified>
     </skos:Concept>
-
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/375">
         <skos:prefLabel xml:lang="es">Contract</skos:prefLabel>
         <skos:altLabel xml:lang="it">Diritto privato. Contratto</skos:altLabel>
@@ -413,6 +427,11 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
         <dct:created>2014-10-18 12:27:53</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/436">
+        <skos:prefLabel xml:lang="en">Citizenship decree</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/398">
         <skos:prefLabel xml:lang="en">Consolatory decree</skos:prefLabel>
         <skos:altLabel xml:lang="en">consolatory text</skos:altLabel>
@@ -420,6 +439,11 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
         <dct:created>2014-10-18 12:27:53</dct:created>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/446">
+        <skos:prefLabel xml:lang="en">Cult regulation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/79"/>
+        </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/15">
         <skos:prefLabel xml:lang="fr">Décret d&apos;association</skos:prefLabel>
         <skos:altLabel xml:lang="es">Decreto de una asociación</skos:altLabel>
@@ -452,6 +476,11 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 12:09:29</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/437">
+        <skos:prefLabel xml:lang="en">Honorary decree</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/19">
         <skos:prefLabel xml:lang="fr">Décret impérial</skos:prefLabel>
         <skos:altLabel xml:lang="es">Decreto imperial</skos:altLabel>
@@ -459,6 +488,11 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 12:09:53</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/435">
+        <skos:prefLabel xml:lang="en">Decree of deme</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/20">
         <skos:prefLabel xml:lang="fr">Décret provincial</skos:prefLabel>
@@ -468,6 +502,11 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 12:10:18</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/438">
+        <skos:prefLabel xml:lang="en">Proxeny decree</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/1"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/89">
         <skos:prefLabel xml:lang="fr">Dédicace de statue</skos:prefLabel>
         <skos:altLabel xml:lang="es">Dédicatoria de estatua</skos:altLabel>
@@ -476,6 +515,16 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/88"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:43:21</dct:modified>
+    </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/464">
+        <skos:prefLabel xml:lang="en">Dedication (Christian)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/383"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/450">
+        <skos:prefLabel xml:lang="en">Dedicatory epigram</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/79"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/83">
         <skos:prefLabel xml:lang="fr">Dédicace votive</skos:prefLabel>
@@ -510,6 +559,10 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/366"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:28:16</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/442">
+        <skos:prefLabel xml:lang="en">Dikastic tablet (only in Athens)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/357">
         <skos:prefLabel xml:lang="en">Document</skos:prefLabel>
@@ -587,6 +640,11 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-21 11:22:16</dct:modified>
     </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/465">
+        <skos:prefLabel xml:lang="en">Epitaph (Christian)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/383"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/93">
         <skos:prefLabel xml:lang="fr">Epitaphe métrique</skos:prefLabel>
         <skos:altLabel xml:lang="es">Epitaphe métrico</skos:altLabel>
@@ -623,7 +681,6 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:43:06</dct:modified>
     </skos:Concept>
-
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/395">
         <skos:prefLabel xml:lang="la">Commentarii</skos:prefLabel>
         <skos:altLabel xml:lang="de">Protokolle</skos:altLabel>
@@ -638,7 +695,7 @@
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/1">
         <skos:prefLabel xml:lang="la">Fasti, Leges, Acta</skos:prefLabel>
-        <skos:altLabel xml:lang="it">Calendario</skos:altLabel>        
+        <skos:altLabel xml:lang="it">Calendario</skos:altLabel>
 <skos:altLabel xml:lang="it">elenco di magistrati</skos:altLabel>
         <skos:altLabel xml:lang="it">legge</skos:altLabel>
         <skos:altLabel xml:lang="it">senatoconsulto</skos:altLabel>
@@ -686,6 +743,11 @@
 
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 11:45:21</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/451">
+        <skos:prefLabel xml:lang="en">Funerary imprecation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/92"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/50">
         <skos:prefLabel xml:lang="es">Fideicomiso</skos:prefLabel>
@@ -746,6 +808,31 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:31:50</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/454">
+        <skos:prefLabel xml:lang="en">Graffito/dipinto on wall</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/127"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/455">
+        <skos:prefLabel xml:lang="en">Graffito/dipinto on vase</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/127"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/453">
+        <skos:prefLabel xml:lang="en">Commemorative graffito</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/127"/>
+    </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/456">
+        <skos:prefLabel xml:lang="en">Obscene graffito</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/127"/>
+    </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/457">
+        <skos:prefLabel xml:lang="en">Rupestral graffito</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/127"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/371">
         <skos:prefLabel xml:lang="en">groma</skos:prefLabel>
@@ -852,6 +939,11 @@
         <skos:prefLabel xml:lang="en">honorific statue</skos:prefLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2014-03-19 09:09:07</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/445">
+        <skos:prefLabel xml:lang="en">honorary epigram</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/376"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/24">
         <skos:prefLabel xml:lang="fr">Horologion</skos:prefLabel>
@@ -1036,6 +1128,15 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 13:41:45</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/439">
+        <skos:prefLabel xml:lang="en">Letter of a city</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lettre de la cité</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/440">
+        <skos:prefLabel xml:lang="en">Letter of a Roman magistrate</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/32">
         <skos:prefLabel xml:lang="fr">Liste de magistrats</skos:prefLabel>
         <skos:altLabel xml:lang="es">Lista de magistrados</skos:altLabel>
@@ -1053,6 +1154,16 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 13:42:37</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/443">
+        <skos:prefLabel xml:lang="en">List of members of associations</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/108"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/444">
+        <skos:prefLabel xml:lang="en">List of names</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/108"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/34">
         <skos:prefLabel xml:lang="fr">Liste de sacrifices</skos:prefLabel>
         <skos:altLabel xml:lang="es">Lista de sacrificios</skos:altLabel>
@@ -1061,6 +1172,7 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 13:42:59</dct:modified>
     </skos:Concept>
+    
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/6">
         <skos:prefLabel xml:lang="fr">Loi coloniale</skos:prefLabel>
         <skos:altLabel xml:lang="es">Ley colonial</skos:altLabel>
@@ -1240,6 +1352,22 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:39:03</dct:modified>
     </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/461">
+        <skos:prefLabel xml:lang="en">Mosaic inscription (Christian)</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/138"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/383"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/459">
+         <skos:prefLabel xml:lang="en">Label</skos:prefLabel>
+         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/138"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/460">
+         <skos:prefLabel xml:lang="en">Dedication</skos:prefLabel>
+         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/138"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/36">
         <skos:prefLabel xml:lang="fr">Nom de rue</skos:prefLabel>
         <skos:altLabel xml:lang="es">Nombre de calle</skos:altLabel>
@@ -1264,6 +1392,11 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/86"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:45:19</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/447">
+        <skos:prefLabel xml:lang="en">Oracular inquiry</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/79"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/397">
         <skos:altLabel xml:lang="la">titulus operis privati</skos:altLabel>
@@ -1301,12 +1434,22 @@
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 13:46:36</dct:modified>
     </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/463">
+        <skos:prefLabel xml:lang="en">Psalm quotation</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/383"/>
+    </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/360">
         <skos:prefLabel xml:lang="en">public document</skos:prefLabel>
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/357"/>
         <dct:created>2014-03-13 11:20:38</dct:created>
         <dct:modified>2014-03-13 11:21:10</dct:modified>
+    </skos:Concept>
+        <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/441">
+        <skos:prefLabel xml:lang="en">public subscription</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/357"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/5">
         <skos:prefLabel xml:lang="de">Rechtliche Verfügung, öffentlich</skos:prefLabel>
@@ -1406,6 +1549,11 @@
         <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/383"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 14:29:59</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/458">
+        <skos:prefLabel xml:lang="en">Sealing</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/136"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/44">
         <skos:prefLabel xml:lang="la">Senatus consultum</skos:prefLabel>
@@ -1704,6 +1852,11 @@
         <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
         <dct:created>2013-08-01 12:27:53</dct:created>
         <dct:modified>2013-08-20 15:39:32</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/452">
+        <skos:prefLabel xml:lang="en">Topos inscription</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/typeins/"/>
+        <skos:related rdf:resource="https://www.eagle-network.eu/voc/typeins/lod/127"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://www.eagle-network.eu/voc/typeins/lod/368">
         <skos:prefLabel xml:lang="en">Verse</skos:prefLabel>
